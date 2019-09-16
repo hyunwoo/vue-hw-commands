@@ -1,6 +1,6 @@
 {
   "name": "vue-page-template",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "vue-page-template , genetarte index, scss, ts, vue",
   "main": "./lib/index.js",
   "bin": {

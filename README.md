@@ -15,3 +15,9 @@ index.ts
 ```
 $ vue-page-template {FOLDER_NAME}
 ```
+
+```
+$ vue-page-template {FOLDER_NAME} -P
+or
+$ vue-page-template {FOLDER_NAME} -plugin
+```

@@ -10,18 +10,18 @@ declare module 'vue/types/vue' {
 
 declare module 'vue/types/vue' {
   interface Vue {
-    $#app#: #App#
+    $#pApp#: #App#
 }
 }
 
 export default {
-  #app#: new #App#(),
+  #pApp#: new #App#(),
 
 install(vue: typeof Vue, options: any) {
-  if (Vue.prototype.$#app# === undefined) {
-    Vue.prototype.$#app# = this.#app#;
+  if (Vue.prototype.$#pApp# === undefined) {
+    Vue.prototype.$#pApp# = this.#pApp#;
   }
-  this.#app#.$mount(
+  this.#pApp#.$mount(
     document.body.appendChild(document.createElement('div'))
   );
 }

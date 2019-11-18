@@ -1,6 +1,6 @@
 {
-  "name": "vue-page-template",
-  "version": "1.1.2",
+  "name": "vue-hw-commands",
+  "version": "1.1.4",
   "description": "vue-page-template , genetarte index, scss, ts, vue",
   "main": "./lib/index.js",
   "bin": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyunwoo/vue-page-template.git"
+    "url": "git+https://github.com/hyunwoo/vue-hw-commands.git"
   },
   "author": "h.hyunwoo@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hyunwoo/vue-page-template/issues"
+    "url": "https://github.com/hyunwoo/vue-hw-commands/issues"
   },
-  "homepage": "https://github.com/hyunwoo/vue-page-template#readme",
+  "homepage": "https://github.com/hyunwoo/vue-hw-commands#readme",
   "dependencies": {
     "camelcase": "^5.3.1",
     "chalk": "^2.4.2"
